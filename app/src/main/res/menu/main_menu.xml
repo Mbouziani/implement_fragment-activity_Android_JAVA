@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+    android:id="@+id/iconadd"
+    android:title="add"
+    android:icon="@drawable/ic_add"
+    android:orderInCategory="100"
+    app:showAsAction="ifRoom"/>
+    <item
+    android:id="@+id/iconupdate"
+    android:title="add"
+    android:icon="@drawable/ic_update"
+    android:orderInCategory="100"
+    app:showAsAction="ifRoom"/>
+    <item
+    android:id="@+id/idcondelete"
+    android:title="Delete"
+    android:icon="@drawable/ic_delete"
+    android:orderInCategory="100"
+    app:showAsAction="ifRoom"/>
+</menu>
